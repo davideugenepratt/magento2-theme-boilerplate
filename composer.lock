@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a802af48767f763ac784d31961613236",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "davideugenepratt/magento2-demo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davideugenepratt/magento2-demo.git",
+                "reference": "5599a61a3db1824ed0f0c2babb425e97d375a320"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davideugenepratt/magento2-demo/zipball/5599a61a3db1824ed0f0c2babb425e97d375a320",
+                "reference": "5599a61a3db1824ed0f0c2babb425e97d375a320",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "type": "library",
+            "description": "A package that throws a Magento2 demo site into your dev dependencies.",
+            "support": {
+                "source": "https://github.com/davideugenepratt/magento2-demo/tree/master",
+                "issues": "https://github.com/davideugenepratt/magento2-demo/issues"
+            },
+            "time": "2018-03-25T16:53:37+00:00"
+        },
+        {
+            "name": "davideugenepratt/magento2-theme-boilerplate-pattern-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library.git",
+                "reference": "c9a2d12e2d0fd041d5c2e65c1ae938a725c379b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davideugenepratt/magento2-theme-boilerplate-pattern-library/zipball/c9a2d12e2d0fd041d5c2e65c1ae938a725c379b2",
+                "reference": "c9a2d12e2d0fd041d5c2e65c1ae938a725c379b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "type": "library",
+            "description": "A boilerplate pattern library for a Magento2 theme.",
+            "support": {
+                "source": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library/tree/master",
+                "issues": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library/issues"
+            },
+            "time": "2018-03-22T05:13:41+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "davideugenepratt/magento2-demo": 20,
+        "davideugenepratt/magento2-theme-boilerplate-pattern-library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "platform-dev": []
+}

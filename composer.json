@@ -1,0 +1,22 @@
+{
+  "name": "davideugenepratt/magento2-pattern-lab",
+  "description": "A module that allows you to use pattern lab patterns in your magento2 theme.",
+  "version" : "v0.1.0",
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  },
+  "require-dev" : {
+    "davideugenepratt/magento2-demo" : "dev-master",
+    "davideugenepratt/magento2-theme-boilerplate-pattern-library" : "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/davideugenepratt/magento2-demo"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+**/vendor
+**/.*
+!.gitignore
+**/*.log
+**/node_modules
