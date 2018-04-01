@@ -11,6 +11,6 @@ module.exports = function(grunt) {
             themeCopyFiles: 'rsync -av --progress /vagrant/. ' + themeDirectory + ' --exclude vendor --exclude node_modules --exclude vagrant --exclude .git --exclude .idea'
         }
     });
-    grunt.registerTask( 'theme:generate' , [ 'exec:themeGenerateXml' , 'exec:themeGenerateRegistration' ] );
+    grunt.registerTask( 'theme:generate' , [ 'exec:themeGenerateXml' , 'exec:themeGenerateRegistration' , 'exec:themeDirectoryCheck', 'exec:clearThemeDirectory', 'exec:themeCopyFiles' ] );
     grunt.registerTask( 'theme:copy' , [ 'exec:themeDirectoryCheck', 'exec:clearThemeDirectory', 'exec:themeCopyFiles' ] );
 };
