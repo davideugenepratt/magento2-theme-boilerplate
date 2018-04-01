@@ -1,7 +1,11 @@
 {
-  "name": "davideugenepratt/magento2-pattern-lab",
+  "name": "davideugenepratt/magento2-theme-boilerplate",
   "description": "A module that allows you to use pattern lab patterns in your magento2 theme.",
   "version" : "v0.1.0",
+  "type" : "magento2-theme",
+  "demo-site" : "davideugenepratt/swellsmell-demo",
+  "pattern-library" : "davideugenepratt/swellsmell-pattern-library",
+  "parent-theme" : "magento/luma",
   "require": {
     "php": "^5.3.3 || ^7.0"
   },
