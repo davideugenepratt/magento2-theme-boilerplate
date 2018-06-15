@@ -5,6 +5,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::THEME,
-    'frontend/<Vendor>/<theme>',
+    'frontend/davideugenepratt/magento2-theme-boilerplate',
     __DIR__
 );

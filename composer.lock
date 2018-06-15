@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a802af48767f763ac784d31961613236",
+    "content-hash": "b8855287f3fa1a6ea1428ef717f0a8ad",
     "packages": [],
     "packages-dev": [
         {
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/davideugenepratt/magento2-demo.git",
-                "reference": "5599a61a3db1824ed0f0c2babb425e97d375a320"
+                "reference": "c2a12b0f5524ada9cff210247d077744f3e1d174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davideugenepratt/magento2-demo/zipball/5599a61a3db1824ed0f0c2babb425e97d375a320",
-                "reference": "5599a61a3db1824ed0f0c2babb425e97d375a320",
+                "url": "https://api.github.com/repos/davideugenepratt/magento2-demo/zipball/c2a12b0f5524ada9cff210247d077744f3e1d174",
+                "reference": "c2a12b0f5524ada9cff210247d077744f3e1d174",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
                 "source": "https://github.com/davideugenepratt/magento2-demo/tree/master",
                 "issues": "https://github.com/davideugenepratt/magento2-demo/issues"
             },
-            "time": "2018-03-25T16:53:37+00:00"
+            "time": "2018-04-01T19:15:23+00:00"
         },
         {
             "name": "davideugenepratt/magento2-theme-boilerplate-pattern-library",
@@ -38,12 +38,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library.git",
-                "reference": "c9a2d12e2d0fd041d5c2e65c1ae938a725c379b2"
+                "reference": "c81ffbabccbfd03f29d21ced43bc24d38e141eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davideugenepratt/magento2-theme-boilerplate-pattern-library/zipball/c9a2d12e2d0fd041d5c2e65c1ae938a725c379b2",
-                "reference": "c9a2d12e2d0fd041d5c2e65c1ae938a725c379b2",
+                "url": "https://api.github.com/repos/davideugenepratt/magento2-theme-boilerplate-pattern-library/zipball/c81ffbabccbfd03f29d21ced43bc24d38e141eef",
+                "reference": "c81ffbabccbfd03f29d21ced43bc24d38e141eef",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "source": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library/tree/master",
                 "issues": "https://github.com/davideugenepratt/magento2-theme-boilerplate-pattern-library/issues"
             },
-            "time": "2018-03-22T05:13:41+00:00"
+            "time": "2018-03-31T04:04:10+00:00"
         }
     ],
     "aliases": [],

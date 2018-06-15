@@ -8,9 +8,9 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: composer[ 'server-ip' ]
   config.berkshelf.enabled = true
   config.vm.provision "chef_solo" do |chef|
-    chef.add_recipe "php-box-core"
-    chef.add_recipe "php-box-core::dev"
+    chef.add_recipe "lxmpbox::php"
+    chef.add_recipe "lxmpbox::mysql"
+    chef.add_recipe "lxmpbox::nginx"
+    chef.add_recipe "meanbox::node"
   end
-  config.vm.provision "shell", path: "vagrant/provision/nginx.sh"
-  config.vm.provision "shell", path: "vagrant/provision/mysql.sh"
 end
